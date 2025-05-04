@@ -1,0 +1,201 @@
+@media (min-width: 1700px) {
+  .login-box-container {
+    width: 35%;
+    height: 50%;
+  }
+  .greet-container {
+    width: 100%;
+    height: 20%;
+  }
+  .greet-container h1,
+  .greet-container h2,
+  .greet-container h3 {
+    font-size: 6rem;
+  }
+  .greet-container h2 {
+    font-size: 3.5rem;
+  }
+  .greet-container h3 {
+    font-size: 2.5rem;
+  }
+  .operations-container {
+    height: 80%;
+  }
+  .operation-box-icon,
+  .client-button span {
+    font-size: 20rem;
+  }
+  .home-icon,
+  .nav-link,
+  .logout-button,
+  .logout-icon,
+  .pro,
+  .input-group label,
+  .input-group input,
+  .client-details-container h3 span {
+    font-size: 2rem;
+  }
+  .home-icon {
+    font-size: 4rem;
+  }
+  .nav-link {
+    font-size: 3rem;
+  }
+  .buttons-container {
+    width: 10%;
+  }
+  .client-details-container {
+    font-size: 2.5rem;
+  }
+  .form-title,
+  .add-client-button {
+    font-size: 4rem;
+  }
+  .input-group input {
+    padding: 1rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .login-box-container,
+  .operations-container,
+  .Footer,
+  .client-card,
+  .card-container,
+  .ClientActionCard {
+    flex-direction: column;
+    align-items: center;
+  }
+  .login-box-container,
+  .client-form {
+    width: 90%;
+    height: 90%;
+    gap: 2rem;
+  }
+  .login-image,
+  .round-image {
+    width: 100%;
+  }
+  .login-image {
+    height: 35%;
+    clip-path: polygon(100% 0, 100% 100%, 50% 50%, 0 100%, 0 50%, 0% 0%);
+  }
+  .login-form-container {
+    width: 70%;
+    height: 65%;
+  }
+  .login-title {
+    font-size: 3.5rem;
+  }
+  .login-form,
+  .nav-links,
+  .client-form {
+    width: 100%;
+    gap: 1.2rem;
+  }
+  .login-button-container,
+  .footer-logo,
+  .logout-button-container,
+  .hamburger {
+    display: flex;
+    justify-content: center;
+  }
+  .logo-container,
+  .Footer {
+    width: 100%;
+    min-height: 10%;
+    padding-top: 5rem;
+    gap: 1rem;
+  }
+  .logo,
+  .footer-logo img {
+    width: 50%;
+  }
+  .nav-bar {
+    height: 10%;
+    justify-content: space-between;
+  }
+  .nav-links,
+  .nav-links.open {
+    display: none;
+    flex-direction: column;
+    width: 50%;
+  }
+  .nav-links.open {
+    display: flex;
+  }
+  .nav-link,
+  .operation-box,
+  .client-button span {
+    font-size: 1.4rem;
+  }
+  .logout-button {
+    font-size: 1.2rem;
+  }
+  .hamburger {
+    width: 50%;
+  }
+  .HomePage,
+  .ClientManagePage {
+    gap: 2.5rem;
+    padding: 3rem 0;
+  }
+  .greet-container h1 {
+    font-size: 3rem;
+  }
+  .greet-container h2 {
+    font-size: 2rem;
+  }
+  .greet-container h3 {
+    font-size: 1.6rem;
+  }
+  .operations-box-container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  .operation-box-icon {
+    font-size: 6rem;
+  }
+  .Footer {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .copyrights {
+    width: 100%;
+    font-size: 1rem;
+  }
+  .icon-link {
+    font-size: 2rem;
+  }
+  .search-container,
+  .buttons-container {
+    flex-direction: column;
+  }
+  .ClientSearch {
+    width: 80%;
+  }
+  .ClientSearch #submit {
+    padding: 0.8rem;
+  }
+  .client-card,
+  .card-container {
+    gap: 3rem;
+    margin: 2rem 0;
+  }
+  .round-image {
+    height: 20%;
+  }
+  .buttons-container {
+    flex-direction: row;
+  }
+  .AddClientPage,
+  .TransactionsPage {
+    padding: 5rem 0;
+  }
+  .TransactionsPage {
+    padding: 2rem 0;
+  }
+}

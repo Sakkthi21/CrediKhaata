@@ -1,0 +1,57 @@
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  width: 80%;
+  padding: 1rem;
+  font-size: 1.4rem;
+}
+
+.login-button-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.button {
+  padding: 1rem 2rem;
+  border-radius: 3rem;
+  font-size: 1.4rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.sign-in-button{
+  padding: 1rem 3rem;
+  color: white;
+  background-color: rgb(73, 73, 170);
+}
+
+.sign-in-button:hover {
+  color: rgb(73, 73, 170);
+  background-color: white;
+  box-shadow: 1px 1px 6px 1px rgb(73, 73, 170);
+}
+
+.forget-link {
+  font-size: 1.2rem;
+  color: #9e9d9de3;
+  height: 70%;
+  text-decoration: underline;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.forget-link:hover {
+  color: rgb(73, 73, 170);
+}
+
+.error-message {
+  color: red;
+  font-size: 1rem;
+}

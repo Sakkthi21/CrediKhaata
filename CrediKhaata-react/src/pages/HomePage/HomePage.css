@@ -1,0 +1,62 @@
+.HomePage {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 100%;
+}
+
+.greet-container {
+  width: 100%;
+  height: 30%;
+}
+.greet-container h1 {
+  font-size: 5rem;
+  color: #000000;
+}
+.greet-container h2 {
+  font-size: 3rem;
+  color: rgb(56, 56, 56);
+}
+.greet-container h3 {
+  font-size: 2rem;
+  color: rgb(78, 78, 78);
+}
+
+.operations-container {
+  width: 90%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.operations-box-container {
+  width: 60%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 2rem;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.HomePage .greet-container, .HomePage .operations-box-container {
+  opacity: 0; 
+  animation: fadeIn 1.5s ease-in-out forwards; 
+}
+
+
+.HomePage .operations-box-container {
+  animation-delay: 0.5s; 
+}
+
+
