@@ -27,7 +27,8 @@ CrediKhaata is a responsive React.js web application designed for small shopkeep
 ## Setup and Installation
 1. Set the repository
 ```bash
-cd credi-khaata
+cd Credi-khaata
+cd CrediKhaata-react
 ```
 
 2. Install dependencies
