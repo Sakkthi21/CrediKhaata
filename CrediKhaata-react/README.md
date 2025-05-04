@@ -25,9 +25,8 @@ CrediKhaata is a responsive React.js web application designed for small shopkeep
 - **Notifications**: React Toastify
 
 ## Setup and Installation
-1. Clone the repository
+1. Set the repository
 ```bash
-git clone [repository-url]
 cd credi-khaata
 ```
 
